@@ -1,3 +1,26 @@
+:root {
+    /* fonts */
+    --cf-title-font: 'Bebas Neue', sans-serif;
+    --cf-body-font: 'Monsterrat', sans-serif;
+    /* colors */
+    --cf-dark-color: #212121;
+    --cf-light-color: #deeefb;
+    /* text styles */
+    --cf-title-color: var(--cf-dark-color);
+    --cf-font-size: 1rem;
+}
+
+html, body {
+    font-family: var(--cf-body-font);
+    font-size: var(--cf-font-size);
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+/* Blazor Default Styles */
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
 }
@@ -75,3 +98,4 @@
 code {
     color: #c02d76;
 }
+/* #endregion Blazor Default Styles */
