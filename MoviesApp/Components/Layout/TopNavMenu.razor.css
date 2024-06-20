@@ -2,6 +2,6 @@
     background-color: var(--cf-theme-900);
 }
 
-.navbar-nav {
+.navbar-nav{
     --bs-navbar-hover-color: var(--cf-theme-400);
 }
