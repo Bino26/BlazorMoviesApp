@@ -31,5 +31,10 @@ namespace MoviesApp.Services
 
 
         }
+
+        public Task<MovieDetails?> GetMoviesDetailsAsync(int id)
+        {
+            return httpClient.GetFromJsonAsync<MovieDetails>($"movie/{id}");
+        }
     }
 }
